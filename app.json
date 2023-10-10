@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Life Best",
+    "slug": "imc-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFD700"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.brunocesar902.imcapp",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3f2aaf3-a857-4699-90c3-bb433af03d46"
+      }
+    }
+  }
+}
